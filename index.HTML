@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        body {
+            background-image: url("images/bl.png");
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .logo_nome {
+            width: 300px;
+            height: auto;
+            position: fixed;
+            bottom: 1cm;
+        }
+
+        .quadrado {
+            width: 250px;
+            height: 1500px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            bottom: 2cm;
+            left: 2cm;
+        }
+
+        .menu {
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            font-size: x-large;
+            font-weight: bold;
+            position: fixed;
+            bottom: 10cm;
+            left: 130px;
+            z-index: 1;
+            display: block;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .menu a:hover {
+            text-decoration: line-through;
+        }
+
+        .logogroup {
+            display: flex;
+            justify-content: left;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-bottom: 10px;
+            position:relative;
+            top:  180px;
+            left:-30px
+
+        }
+
+        .logogroup img {
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="menu">
+        <p><a href="curriculo.html">Ver Curriculo</a></p>
+        <p><a href="https://tiagocardona.pixieset.com/portfolio/">Portfólio</a></p>
+        
+        <p><a href="projectos.html">Outros <br> Projectos</a></p>
+       
+
+        <div class="logogroup">
+          <a href="https://www.linkedin.com/in/tiagocardonafelix/">
+              <img src="images/linkedin.png" width="40" height="fixed" alt="linkedin" >
+          </a>
+          <a href="mailto:tiago.cardona@gmail.com">
+              <img src="images/gmail.png" width="40" height="fixed" alt="gmail">
+          </a>
+        
+              <a href="https://www.instagram.com/tiago.cr2">
+              <img src="images/instagram.png" width="40" height="fixed" alt="instagram">
+          </a>
+          <a href="https://www.behance.net/tiagocardona">
+              <img src="images/behance.png" width="40" height="fixed" alt="behance">
+          </a>
+        </div>
+
+    </nav>
+
+    <div class="quadrado">
+        <img src="images/logonome.png" alt="logo imagem" class="logo_nome">
+    </div>
+
+</body>
+</html>
